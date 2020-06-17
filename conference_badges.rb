@@ -17,4 +17,6 @@ def assign_rooms
     return "Hello, #{name}! You'll be assigned to room #{number}!"
   counter += 1
 end
+  return new_array
+end
   
