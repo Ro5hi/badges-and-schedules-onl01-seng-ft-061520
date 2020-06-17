@@ -10,6 +10,7 @@ end
   return new_array
 end
 
+# 'should return a list of welcome messages and room assignments'
 def assign_rooms
   new_array = []
   number = 0
