@@ -20,7 +20,7 @@ def assign_rooms
   another_array = []
   counter = 1
   array.each do |name|
-    return "Hello, #{name}! You'll be assigned to room #{number}!"
+    array << "Hello, #{name}! You'll be assigned to room #{number}!"
   counter += 1
 end
     return another_array
