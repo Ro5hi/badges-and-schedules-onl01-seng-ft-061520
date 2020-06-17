@@ -33,6 +33,8 @@ def printer(array)
     puts individual 
   end
 
+# 'assign rooms'
+
 assign_rooms(array).each do |individual|
     puts individual
   end
