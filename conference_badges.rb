@@ -29,7 +29,7 @@ end
 # 'printer'
 
 def printer(array)
-  batch_badge_creator(array).each do |names|
-    puts names
+  batch_badge_creator(array).each do |ID|
+    puts ID 
   end
   
