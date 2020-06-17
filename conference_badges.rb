@@ -17,12 +17,12 @@ end
 # 'should return a list of welcome messages and room assignments'
 
 def assign_rooms
-  new_array = []
+  another_array = []
   counter = 1
   array.each do |name|
     return "Hello, #{name}! You'll be assigned to room #{number}!"
   counter += 1
 end
-    return new_array
+    return another_array
 end
   
