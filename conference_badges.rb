@@ -11,7 +11,7 @@ def batch_badge_creator(array)
     array.each do |name|
   new_array << ("Hello, my name is #{name}.")
 end
-  return new_array
+    return new_array
 end
 
 # 'should return a list of welcome messages and room assignments'
@@ -23,6 +23,6 @@ def assign_rooms
     return "Hello, #{name}! You'll be assigned to room #{number}!"
   counter += 1
 end
-  return new_array
+    return new_array
 end
   
