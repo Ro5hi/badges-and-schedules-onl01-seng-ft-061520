@@ -34,5 +34,7 @@ def printer(array)
   end
 
 assign_rooms(array).each do |individual|
-  
+    puts individual
+  end
+end
   
