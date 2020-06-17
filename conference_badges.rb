@@ -33,5 +33,5 @@ def printer(array)
     puts individual 
   end
 
-assign_rooms
+assign_rooms(array)
   
