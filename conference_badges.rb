@@ -11,6 +11,8 @@ end
 end
 
 def assign_rooms
+  new_array = []
+  
     return "Hello, #{name}! You'll be assigned to room #{number}!"
 end
   
