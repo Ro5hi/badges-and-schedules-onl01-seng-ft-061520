@@ -16,13 +16,13 @@ end
 
 # 'should return a list of welcome messages and room assignments'
 
-def assign_rooms
-  another_array = []
+def assign_rooms(array)
+  new_array = []
   counter = 1
-  array.each do |name|
-    another_array << "Hello, #{name}! You'll be assigned to room #{counter}!"
+    array.each do |name|
+    new_array.push("Hello, #{name}! You'll be assigned to room #{counter}!")
   counter += 1
-end
-    return another_array
+  end
+  return new_array
 end
   
