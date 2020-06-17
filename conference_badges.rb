@@ -30,6 +30,6 @@ end
 
 def printer(array)
   batch_badge_creator(array).each do |name|
-    puts c
+    puts name
   end
   
