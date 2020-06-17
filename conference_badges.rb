@@ -12,3 +12,5 @@ end
 
 def assign_rooms
     return "Hello, #{name}! You'll be assigned to room #{number}!"
+end
+  
