@@ -1,9 +1,11 @@
-# 
+# 'should return a formatted badge'
+
 def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
 # 'should return a list of badge messages'
+
 def batch_badge_creator(array)
   new_array = []
     array.each do |name|
@@ -13,6 +15,7 @@ end
 end
 
 # 'should return a list of welcome messages and room assignments'
+
 def assign_rooms
   new_array = []
   number = 0
